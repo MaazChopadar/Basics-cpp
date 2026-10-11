@@ -60,7 +60,7 @@ void binary::ones_compliment(void)
         {
             s.at(i) = '1';
         }
-       else
+        else
         {
             s.at(i) = '0';
         }
@@ -69,12 +69,12 @@ void binary::ones_compliment(void)
 
 void binary::display(void)
 {
-    cout<<"Displaying your binary number"<<endl;
+    cout << "Displaying your binary number" << endl;
     for (int i = 0; i < s.length(); i++)
     {
         cout << s.at(i);
     }
-    cout<<endl;
+    cout << endl;
 }
 
 int main()
