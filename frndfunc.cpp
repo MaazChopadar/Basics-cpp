@@ -1,10 +1,6 @@
 #include<iostream>
 using namespace std;
 
-// 1 + 4i
-// 5 + 8i
-// -------
-// 6 + 12i 
 class Complex{
     int a, b;
     friend Complex sumComplex(Complex o1, Complex o2);
