@@ -31,8 +31,6 @@ int main(){
     Y b1;
     b1.setvalue(15);
     
-
-    
     add(a1,b1);
     return 0;
 }
